@@ -23,4 +23,9 @@ export default function Navbar() {
   );
 }
 
-const NavBar = styled.nav``;
+const NavBar = styled.ul`
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+`;
