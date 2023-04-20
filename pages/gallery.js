@@ -1,9 +1,10 @@
 import Navbar from "@/components/Navbar/Navbar";
+import PageHeader from "@/components/PageHeader";
 
 export default function contact() {
   return (
     <>
-      <h1>Lisa Wolf</h1>
+      <PageHeader />
       <Navbar />
       <h2>Gallerie</h2>
     </>
